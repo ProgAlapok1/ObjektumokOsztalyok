@@ -1,0 +1,48 @@
+3 alapelve az objektumorientalt programozasnak:
+    adatrejtes :    
+     public (barhonnan elerheto) 
+        protected (csomagon belul erheto el)
+        private (osztalyon belul) -> getter(add ide)+setter(ird at abba a valtozoba)(metodusok, public)
+        ha kell vkinek az erteke
+                MVC model view control (konyvtarak)
+                M adatbaziskezeles, szamitasok
+                v ablakok, nezetek
+                C kontrol 
+    egysegbe zaras 
+        ahany tennivalo annyi osztaly = kezelhetoseg, atlathatosag, modositas egyszerusege
+    polimorficazio == tobbalapusag
+        konstruktor specialis metodus, minden objektumnak kotelezoen van, obj (peldanyositunk) letrehozasakor alapertelmezetten 
+        beallitja a tulajdonsagait kepessegeit, metodusokat meghivja == mukodoskepes allapotba hozza
+        
+komuves jani es pityu
+
+osztalykapcsolatok
+    szulo es gyermekosztaly (orokli a tulajdonsagat, keszseget)
+    ososztaly (javaban: object) alap 
+    objektmoknak is van tipusa: osztalynak a tipusa pl komuves osztalybol komuves jani 
+    orokles = extend
+
+oroklesi hierarchia
+    allat tulajdonsag:  fajta       kepessegek: eszik
+                        nev                     alszik
+                        suly                    hangot ad
+    kutya       vadmacska       
+orzi a hazat     egeret fog  
+                hazi macska
+kiterjesztes     furdik
+
+UML dia!! tervezesi szakasz, naprakesz
+osztalynevek NAGYBETUSEK!
+attributumok: altalanos osztaly valtozok
+osztalyvaltozo mindig privat
+void = nincs visszateritesi erteke
+konstruktor pythonban __init__(self) MINDIG PUBLIKUS
+tiszta kod konyv -- vizsgaremek
+
+sikidom projekt
+    osztalyok:
+        bekeres
+        vizsgalo
+        haromszog T+K
+        kor T+K 
+        Tégla T+K 
